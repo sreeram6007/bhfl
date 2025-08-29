@@ -50,5 +50,4 @@ app.post('/bfhl', (req, res) => {
     res.status(400).json({ is_success: false });
   }
 });
-
-app.listen(3000, () => console.log('Server listening on http://localhost:3000'));
+export default app;
